@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: Roboto;
+}
+
+.feed {
+    width: 80%;
+    margin: auto;
+}
+
+.feed-top {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.post {
+    margin: 10px;
+    background-color: #ffffff;
+    display:grid;
+    box-shadow: 0px 2px #c8c9ca;
+}
+
+.post:nth-child(2n+1) {
+    background-color: #ccecff;
+}
+
+.author {
+    width: 100%;
+    padding: 10px;
+    vertical-align: middle;
+    display: flex;
+    align-items:center;
+}
+
+.author .author-name {
+    font-weight: 900;
+    margin-right: 5px;
+    color: #f4653b;
+}
+
+.author img {
+    width: 25px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.detail {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.detail .image {
+    width: 20%;
+    float:left;
+    display: grid;
+    height: auto;
+    padding: 10px;
+}
+
+.detail .image img {
+    width: 100%;
+    height: auto;
+}
+
+.detail .content {
+    width: 75%;
+    float:left;
+    padding: 10px;
+    height: auto;
+    padding: 10px;
+    display: grid;
+}
+
+.post-header {
+    font-weight: bold;
+}
